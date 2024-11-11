@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+header div{
+    background-color: #3b8686;
+    padding: 2vw 0vw 2vw 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+header div ul {
+    display: flex;
+    padding-top: 2px;
+}
+header div ul li a{
+    color: white;
+    margin: 0 1vw;
+    font-family: "Sour gummy", sans-serif;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+header div ul li:first-child{
+    border-radius: 20px;
+    background-color: #479292;
+    margin: 0;
+}
+main section:first-child{
+    background-image: url(..//src/back-banner.png);
+    padding: 10vw 10vw 10vw 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 23vw 7vw 18vw 7vw;
+}
+main section h1{
+    font-size: 4rem;
+    color: white;
+    font-family: "Sour gummy", sans-serif;
+    background-color: rgba(58, 255, 255, 0.3);
+    width: 40%;
+}
+section.servicos{
+    display: flex;
+}
